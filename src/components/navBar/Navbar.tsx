@@ -4,6 +4,7 @@ import styles from "./navbar.module.css";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
+import { title } from "process";
 
 
 const navItems = [
@@ -22,7 +23,7 @@ const Navbar = () => {
     <div className={styles.navdiv} >
           <Link href={"/"} className={styles.logo}>Main</Link>
     <div className={styles.big}>
-      {navItems.map((item)=><Link href={item.path} className={`${styles.navItem} ${item.path === path && styles.activeLink}`}>{item.title}</Link>)}
+      {navItems.map((item)=><Link href={item.path} key={item.title} className={`${styles.navItem} ${item.path === path && styles.activeLink}`}>{item.title}</Link>)}
     </div>
 
     <div className={styles.small}>idhwhdakd</div>

@@ -1,0 +1,34 @@
+.image {
+  width: 30%;
+  height: auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.textsContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.itemsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+.textsContainer h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.textsContainer h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
