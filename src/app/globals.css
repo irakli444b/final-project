@@ -28,3 +28,8 @@
 body{
   color: var(--color-var);
 }
+input:focus{
+  border: none;
+  box-shadow: none;
+  outline: none;
+}

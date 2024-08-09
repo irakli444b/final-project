@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.formContainer input {
+  padding: 1rem;
+}
+.itemsContainer {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1.5rem;
+  width: 30%;
+}
+.github {
+  padding: 1rem;
+}
+.formContainer input {
+  color: rgb(0, 0, 0);
+}
+.formContainer button {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.loginButton {
+  color: black;
+}

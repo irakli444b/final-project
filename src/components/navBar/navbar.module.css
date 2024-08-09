@@ -4,6 +4,17 @@
   padding: 2rem;
   align-items: center;
 }
+.verticalMenu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2rem;
+  background-color: gray;
+  padding: 2rem;
+}
 
 .big {
   display: flex;
@@ -17,18 +28,24 @@
   color: rgb(255, 255, 255);
   border-radius: 20px;
 }
-.activeLink{
-background-color: white;
-color: black;
+.activeLink {
+  background-color: white;
+  color: black;
 }
-.small {
+.burger {
   display: none;
 }
 @media (max-width: 768px) {
   .big {
     display: none;
   }
-  .small {
+  .burger {
     display: flex;
   }
+}
+.closeButton {
+
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
 }

@@ -20,7 +20,7 @@ const About = () => {
           </div>
         </div>
         <div className={styles.imageContainer}>
-          <Image src={"/mewingEmoji.png"} alt="harryMogger" width={100} height={100} className={styles.mainImage}></Image>
+          <Image src={"/nature.jpg"} alt="harryMogger" width={100} height={100} className={styles.mainImage}></Image>
         </div>
       </div>
     </>
