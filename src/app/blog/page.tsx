@@ -1,4 +1,4 @@
-"use client"; // Ensure this is a client component
+"use client"; 
 import React from 'react';
 import Postcard from '@/components/postcard/postcard';
 import styles from "./blog.module.css";

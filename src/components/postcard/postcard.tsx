@@ -17,7 +17,7 @@ const Postcard = ({ name, desc,pageKey }: Props) => {
   const [isVisible,setVisibility] = useState(false)
   return (
     <div className={styles.container}>
-      <Image src={"/nature.jpg"} alt="sigma emoji" width={100} height={100} className={styles.Image} />
+      <Image src={"/nature.jpg"} alt="img" width={100} height={100} className={styles.Image} />
       <h2>{name}</h2>
       <h5>{desc}</h5>
       <Link href={`/blog/${pageKey}`} >Read More</Link>

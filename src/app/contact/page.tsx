@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <div className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src={"/nature.jpg"} alt={"sigma"} width={100} height={100} className={styles.mainImage}></Image>
+          <Image src={"/nature.jpg"} alt={"img"} width={100} height={100} className={styles.mainImage}></Image>
         </div>
         <div className={styles.formContainer}>
           <form className={styles.form}>
